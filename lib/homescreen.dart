@@ -52,6 +52,11 @@ class HomeScreen extends StatelessWidget {
             const Center(child: Text('No Status Available')),
             const Center(child: Text('No Call History Available'))
           ]),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {},
+            backgroundColor: Colors.green[800],
+            child: const Icon(Icons.message_rounded),
+          ),
         ));
   }
 }
